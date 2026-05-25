@@ -4,6 +4,7 @@ Simple Python scripts for basic infrastructure and network monitoring.
 
 ## Features
 - HTTP status checker
+- Port status checker
 - Website availability monitoring
 
 ## Tech
@@ -14,3 +15,4 @@ Simple Python scripts for basic infrastructure and network monitoring.
 ## Run
 ```bash
 python check.py
+python port.py
