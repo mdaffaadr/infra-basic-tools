@@ -20,21 +20,13 @@ Collection of simple infrastructure, monitoring, networking, and automation scri
 ## Environment
 - Python
 - Termux
-- Linux command line# Infra Basic Tools
-
-Simple Python scripts for basic infrastructure and network monitoring.
-
-## Features
-- HTTP status checker
-- Port status checker
-- Website availability monitoring
-
-## Tech
-- Python
-- requests
-- Termux
+- Linux command line
 
 ## Run
 ```bash
 python check.py
 python port.py
+python logger_check.py
+python retry_check.py
+python api_check.py
+python sysinfo.py
